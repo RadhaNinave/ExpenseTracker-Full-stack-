@@ -1,0 +1,13 @@
+tr {
+  background-color: blueviolet;
+  text-align: center;
+}
+tr td button {
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 1rem;
+}
+tr td button:hover {
+  background-color: rgb(195, 216, 219);
+}

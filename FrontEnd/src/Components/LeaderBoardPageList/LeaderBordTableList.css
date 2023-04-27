@@ -1,0 +1,12 @@
+tbody .main-table_list {
+  background-color: rgb(65, 64, 64);
+  font-size: 1.3rem;
+  color: rgb(228, 222, 222);
+}
+
+tbody .main-table_list2 {
+  background-color: rgb(194, 24, 24);
+  font-size: 1.8rem;
+  font-weight: bolder;
+  color: rgb(228, 222, 222);
+}

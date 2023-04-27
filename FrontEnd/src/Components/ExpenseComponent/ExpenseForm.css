@@ -1,0 +1,102 @@
+.main-tracker {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bolder;
+}
+.main-tracker__title {
+  padding: 1rem;
+}
+.main-tracker_form select {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+.main-tracker_form {
+  background-color: blanchedalmond;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.main-tracker_form label {
+  padding: 1rem;
+}
+.main-tracker_form input {
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 5px;
+}
+.main-tracker_form input:hover {
+  background-color: rgb(195, 216, 219);
+}
+
+.main-tracker_list {
+  display: flex;
+  position: relative;
+  right: 1%;
+  top: 2%;
+  flex-direction: column;
+  background-color: rgb(124, 124, 123);
+  width: 65vw;
+  overflow: scroll;
+  border-radius: 20px;
+}
+.main-tracker_list1 {
+  display: flex;
+  position: relative;
+  right: 15%;
+  top: 2%;
+  flex-direction: column;
+  background-color: rgb(247, 250, 244);
+  width: 65vw;
+  overflow: scroll;
+  border-radius: 20px;
+}
+
+tbody tr th {
+  padding: 1rem;
+  background-color: brown;
+}
+.main-tracker_list h2 {
+  text-align: center;
+}
+.prev_button {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.prev_button button {
+  font-weight: bolder;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.prev_button span {
+  font-weight: bolder;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 40%;
+}
+.Expense_Download {
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 5px;
+}
+div h5 {
+  color: gold;
+  font-size: 2rem;
+  margin: 1rem;
+}
+.DownLoad_Link {
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 10px;
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+

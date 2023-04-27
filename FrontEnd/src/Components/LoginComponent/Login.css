@@ -1,0 +1,33 @@
+.form-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  background-color: #715858;
+}
+.form-main h1 {
+  text-align: center;
+}
+.form-main__form {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+.form-main__form label {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+.form-main__form input {
+  margin: 8px;
+}
+.form-main__form_button {
+  font-weight: 1000;
+  border-radius: 10px;
+}
+
+.form-main__form_button:hover {
+  border: 1px solid red;
+}

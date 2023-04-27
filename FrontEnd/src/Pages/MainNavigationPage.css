@@ -1,0 +1,79 @@
+.header {
+  background-color: rgb(14, 18, 18);
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-navigation__list {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.header-navigation__list li {
+  list-style: none;
+  padding: 10px;
+}
+
+.header-navigation__list__title-home {
+  text-decoration: none;
+  position: relative;
+  right: 8rem;
+  color: aliceblue;
+}
+.header-navigation__list__title-home:hover {
+  border: 1px solid red;
+  color: black;
+  background-color: white;
+  border-radius: 2px;
+  font-weight: bolder;
+}
+
+.header-navigation__list__title-ExpenseTracker{
+  text-decoration: none;
+  position: relative;
+  color: aliceblue;
+}
+.header-navigation__list__title-ExpenseTracker:hover{
+  border: 1px solid red;
+  color: black;
+  background-color: white;
+  border-radius: 2px;
+  font-weight: bolder;
+}
+.header-navigation__list__title-LeaderBoard{
+  text-decoration: none;
+  position: relative;
+  left: 6rem;
+  color: aliceblue;
+}
+.header-navigation__list__title-LeaderBoard:hover{
+  border: 1px solid red;
+  color: black;
+  background-color: white;
+  border-radius: 2px;
+  font-weight: bolder;
+}
+
+.header-navigation input {
+  background-color: red;
+  position: relative;
+  padding: 0.5rem;
+  right: 5rem;
+  top: 0.3rem;
+  height: 2rem;
+  display: inline;
+  border-radius: 6px;
+  font-weight: bolder;
+}
+
+.header-navigation input:hover {
+  background-color: white;
+  cursor: pointer;
+}

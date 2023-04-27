@@ -1,0 +1,43 @@
+.main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-header__title{
+    position: relative;
+    left: 9%;
+}
+.main-header__title_crown{
+    position: absolute;
+    bottom: 58%;
+    left: 55%;
+    width: 10%;
+    z-index: 1;
+}
+.main-header__profile {
+    background-color: silver;
+    position: relative;
+    top: 3rem;
+    left: 10%;
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 3px 15px 5px #000000;
+}
+.main-header__profile button{
+    font-weight: bolder;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+   
+}
+.main-header__profile img {
+background-position: center;
+width: 65%;
+}
